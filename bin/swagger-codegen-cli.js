@@ -5,5 +5,5 @@ if (argv.length == 2) {
 }
 require('child_process')
   .spawn('java', [
-    '-jar', __dirname + '/swagger-codegen-cli-3.0.35.jar']
-      .concat(argv.slice(2)), { stdio: 'inherit' });
+    '-jar', __dirname + '/swagger-codegen-cli-3.0.63.jar']
+    .concat(argv.slice(2)), { stdio: 'inherit' });
